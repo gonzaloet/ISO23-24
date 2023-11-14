@@ -5,10 +5,8 @@ REM
 REM Autor: Gonzalo Exposito Tuda
 REM Fecha: 13-11-2023
 
-set v1=%1
-set v2=%2
-set v3=%3
 
-set/A media=(%v1%+%v2%+%v3%)/3
 
-echo la media es de %v1%,%v2%,%v3% es: %media%
+set/A media=(%1+ %2 + %3)/3
+
+echo la media  de %1, %2 ,%3 es: %media%
