@@ -7,8 +7,8 @@ REM Fecha: 15-11-2023
 title User input
 echo pulsa 1 para crear un archivo .txt
 echo pulsa 2 para crear un archivo .bat
-set/p car=
+set/p num=
 set/p name="nombre del archivo: "
 set/p ruta="en que ruta?: "
-if %car%==1 type nul > %ruta%/%name%.txt
-if %car%==2 type nul > %ruta%/%name%.bat
+if %num%==1 type nul > %ruta%/%name%.txt
+if %num%==2 type nul > %ruta%/%name%.bat
