@@ -20,19 +20,18 @@ else
 	case $op in
 	
 	S)
-		echo >> $1
+		
 		suma=$((op2 + op3))
 		echo "$op2 + $op3 = $suma"
 		echo $op $op2 $op3 >> $1
 	;;
 	
-	R)	echo >> $1
+	R)	
 		resta=$((op2 - op3))
 		echo "$op2 + $op3 = $resta"
 		echo $op $op2 $op3 >> $1
 	;;
 	M)	
-		echo >> $1
 		mult=$((op2 * op3))
 		echo "$op2 * $op3 = $mult"
 		echo $op $op2 $op3 >> $1
